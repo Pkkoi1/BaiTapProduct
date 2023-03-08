@@ -1,0 +1,50 @@
+#head {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 1445px;
+}
+
+.left {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Shop {
+    
+}
+
+/*.cent {
+    display: flex;
+    justify-content: space-around;
+    width: 145px;
+    height: 40px;
+    margin-top: 19px
+    
+}
+*/
+.right {
+    display: flex;
+    justify-content: space-around;
+    width: 355px;
+    align-items: center;
+}
+.td {
+    position: relative;
+    background-image: url("Image 1.png");
+    background-position: top;
+    background-size: cover;
+    margin: auto;
+    height: 391px;
+    width: 1445px;
+}
+.td .img {
+    position: absolute;
+    top: 20%;
+
+    
+}
