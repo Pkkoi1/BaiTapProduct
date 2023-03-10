@@ -1,25 +1,36 @@
 #head {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     margin: auto;
-    width: 1445px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .left {
     justify-content: space-around;
     display: flex;
     flex-direction: row;
-    width: 240px;
+    width: 260px;
     text-align: center;
     margin-top: 15px;
+    margin-left: 153px;
+    box-sizing: border-box;
 }
+.Shop
+{
+    background-color: #ffff;
+    font-size: 80%;
+    color: #adb0b6;
 
+}
 
 .right {
     display: flex;
     justify-content: space-around;
     width: 355px;
     align-items: center;
+    box-sizing: border-box;
 }
 .td {
     position: relative;
@@ -40,4 +51,70 @@
     position: absolute;
     top: 20%;
     left: 10%;
+}
+.head2
+{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+}
+.left2
+{
+    display: flex;
+    justify-content: space-around;
+    width: 520px;
+    height: 10%;
+    flex-direction: row;
+    margin-top: 65px;
+    text-align: center;
+    gap: 10px;
+}
+.btn
+{
+    height: 50px;
+    width: 180px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 100%;
+    color: #569b78;
+    background-color: #ffff;
+}
+.btn:hover
+{
+    cursor: pointer;
+    color: #fefffe;
+    background-color: #569b78;
+}
+
+.right2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.find
+{
+    margin-top: 64px;
+    width: 235px;
+    height: 52px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: 1px;
+    border-color: #f3f4f6;
+    margin-right: 20px;
+}
+.sortb
+{
+    width: 134px;
+    height: 52px;
+    margin-top: 64px;
+    border: 0px;
+    background-color: #f3f4f6;
+}
+.search
+{
+    border-width: 1px ;
+    border-color: #adb0b6;
 }
