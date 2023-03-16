@@ -258,12 +258,14 @@ body
 }
 .email
 {
-    border-radius: 8px;
-    border: 1px #dee1e6 solid;
+    border-radius: 8px 0px 0px 8px;
     background-color: #1d2128;
     width: 302px;
     height: 50px;
-    font-size: 110%;
+    font-size: 16px;
+    border-right: none;
+    border: 1px solid #dee1e6;
+    outline: none;
 }
 .sub
 {
@@ -273,10 +275,10 @@ body
     background-color: #459d7a;
     border: 1px #459d7a solid;
     color: #ffff;
-    transform: translate(-10%);
     border-top-left-radius:0px;
     border-bottom-left-radius:0px ;
     font-size: 110%;
+    transform: translate(-20px,1px);
 }
 .endDetailLeft
 {
