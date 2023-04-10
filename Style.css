@@ -19,7 +19,7 @@
 .Shop
 {
     border: 0px;
-    background-color: #ffff;
+    background-color: #f8f9fa;
     font-size: 100%;
     color: #adb0b6;
     display: flex;
@@ -73,6 +73,10 @@
     margin-top: 65px;
     text-align: center;
     gap: 10px;
+}
+.btn-group
+{
+    margin-top: 65px;   
 }
 .btn
 {
